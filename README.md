@@ -45,20 +45,24 @@ A Pie Chart to show the distribution of policyholders (Policy Ratio) across Age 
 - Step 8: Created DAX measures for the main KPIs.
 
 ## DAX Calculations
-Total Premium Amount:
-- Total Premium = SUM('Insurance Data'1[PremiumAmount])
-    ("https://github.com/user-attachments/assets/5cd593e9-2c03-4c19-8e22-d9c40275d33a")
+- Total Premium = SUM('Insurance Data'[PremiumAmount])
+
+   - ![PremiumAmount]("https://github.com/user-attachments/assets/5cd593e9-2c03-4c19-8e22-d9c40275d33a")
 
 Total Claim Amount:
-- Total Claim Amount = SUM('Insurance Data'
+- Total Claim Amount = SUM('Insurance Data'[ClaimAmount])
 
-![ClaimAmount]("https://github.com/user-attachments/assets/a2f4a2c5-fa68-452c-a782-4f0302328a0c")
+    - ![ClaimAmount]("https://github.com/user-attachments/assets/a2f4a2c5-fa68-452c-a782-4f0302328a0c")
 Total Coverage Amount:
-- Total Coverage = SUM('Insurance Data'[CoverageAmount])
-    ("https://github.com/user-attachments/assets/12520274-e249-4002-a3d7-8748e4fd0bef") 
+- Total Coverage = SUM('Insurance Data"[CoverageAmount])
+
+    - ![CoverageAmount]("https://github.com/user-attachments/assets/12520274-e249-4002-a3d7-8748e4fd0bef") 
 Count of Claims:
+
 - Total Claims = COUNT('Insurance Data'[ClaimID])
 Dashboard Snapshot (Power BI Service)
+
+
 ![page Link]("https://github.com/user-attachments/assets/e9cb3ce0-54e9-4900-92aa-67f1956bbe21") 
 
 ## Insights
@@ -86,4 +90,3 @@ Top Revenue Driver: The "Premium Amount by PolicyType" chart shows that Travel I
 Risk Profile: The "Claim Amount by Age Group" line chart indicates that Adults are the highest risk group, claiming 8.8M, followed by Elders (6.4M). Young Adults claim significantly less (1.7M).
 
 - Customer Distribution: The Pie Chart shows an equal distribution of policyholders (10K each) across Adults, Elders, and Young Adults, yet the financial impact varies drastically by group.
-
