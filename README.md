@@ -47,23 +47,23 @@ A Pie Chart to show the distribution of policyholders (Policy Ratio) across Age 
 ## DAX Calculations
 - Total Premium = SUM('Insurance Data'[PremiumAmount])
 
-   - ![PremiumAmount]("https://github.com/user-attachments/assets/5cd593e9-2c03-4c19-8e22-d9c40275d33a")
+    ![PremiumAmount](https://github.com/user-attachments/assets/5cd593e9-2c03-4c19-8e22-d9c40275d33a)
 
 Total Claim Amount:
 - Total Claim Amount = SUM('Insurance Data'[ClaimAmount])
+    
+    ![ClaimAmount](https://github.com/user-attachments/assets/9688f1b2-c78e-4523-9dfe-aec08f2e08bd)
 
-    - ![ClaimAmount]("https://github.com/user-attachments/assets/a2f4a2c5-fa68-452c-a782-4f0302328a0c")
 Total Coverage Amount:
 - Total Coverage = SUM('Insurance Data"[CoverageAmount])
 
-    - ![CoverageAmount]("https://github.com/user-attachments/assets/12520274-e249-4002-a3d7-8748e4fd0bef") 
+    ![CoverageAmount](https://github.com/user-attachments/assets/12520274-e249-4002-a3d7-8748e4fd0bef) 
 Count of Claims:
 
 - Total Claims = COUNT('Insurance Data'[ClaimID])
 Dashboard Snapshot (Power BI Service)
 
-
-![page Link]("https://github.com/user-attachments/assets/e9cb3ce0-54e9-4900-92aa-67f1956bbe21") 
+![Dashboard Image](https://github.com/user-attachments/assets/3aa4ee8d-f941-4c1d-bf8d-9149f14efe1d) 
 
 ## Insights
 
